@@ -1,0 +1,68 @@
+
+package pkg05.laboratory.ex;
+
+import java.util.Scanner;
+
+
+public class LaboratoryEx {
+
+   
+    public static void main(String[] args) {
+ 
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print ("Enter the product name: "); 
+        String name = scanner.nextLine();
+        
+        System.out.print ("Enter the product code: ");
+        int code = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print ("Enter the quantity in stock: ");
+        int stock = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print ("Enter the product price per unit: ");
+        int price = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print ("Enter the supplier name: ");
+        String Sname = scanner.nextLine();
+        
+        System.out.print ("enter the product expiration date (dd-mm-yyyy) : ");
+        int expiration = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print ("enter the number of product sold today: ");
+        int product = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print ("Enter the discount percentage: ");
+        int discount = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print ("Enter the reaorder threshold quantity: ");
+        int quantity = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print ("Enter the store location: ");
+        String location = scanner.nextLine();
+        
+        
+        System.out.println ();
+        
+        System.out.println ("Prodict name is: " + name);
+        System.out.println ("Product code: " + code);
+        System.out.println ("Quantity in stock: " + stock);
+        System.out.println ("Price per Unit: " + price);
+        System.out.println ("Supplier Name: " + Sname);
+        System.out.println ("Expiration Date: " + expiration);
+        System.out.println ("Product sold today: " + product);
+        System.out.println ("Discount Percentage: " + discount);
+        System.out.println ("Reaorder threshold quantity: " + quantity);
+        System.out.println ("Store location: "+ location); 
+                
+                }
+    
+}
